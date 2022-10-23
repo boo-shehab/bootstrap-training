@@ -1,0 +1,43 @@
+.logo img{
+    width: 120px;
+}
+.landing img{
+    width: 100%;
+}
+.section-header{
+    position: relative;
+}
+.section-header::before{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aqua;
+}
+#services svg{
+    font-size: 3rem;
+}
+#comapny-info img{
+    width: 40%;
+}
+object{
+    width: 100%
+}
+.accordion-button::after{
+    display: none
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+}
+#app-presentation img.screen-img{
+    left: 0;
+    top: 0;
+    width: 80%;
+}
+#video svg{
+    color: aqua;
+    font-size: 3rem;
+}
